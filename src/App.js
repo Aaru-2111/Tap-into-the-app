@@ -1,10 +1,10 @@
-import logo from "./logo.svg";
+
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
 import Header from "./header";
 import Footer from "./Footer";
 import Todos from "./Todos";
-import TodoItem from "./Todoitem";
+
 import About from "./About";
 import React, { useEffect, useState } from "react";
 
@@ -94,22 +94,4 @@ function App() {
 }
 
 export default App;
-{/*
-<Router>
-        <Header title="My todos List" searchbar={false} />
-      <Routes>
 
-        <Route path="/"element={
-            <>
-            <Addtodo addtodo={addtodo} />
-            <Todos todo={todos} delete={ondelete} /> 
-            </>
-          }/>
-          <Route path="/about" element={<About/>}/>
-
-          </Routes>
-       
-        
-         <Footer />
-         
-        </Router>*/}
